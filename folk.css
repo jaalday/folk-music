@@ -1,0 +1,403 @@
+.arsenal-regular {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  
+.navbar{
+    
+    width:100%;
+    height:50px;
+    background-color: rgb(90, 155, 117);
+    text-align: center;
+    word-spacing: 30px;
+    padding-top: 11px;
+   
+    color:azure;
+}
+.log_in_Button{
+    
+  
+   margin-right: 20px;
+   height:40px;
+   width: 100px;
+   margin-bottom: 20px;
+   background-color: rgb(90, 155, 117);
+   
+    
+} 
+.signup_button{
+    
+   height:40px;
+   width: 100px;
+   margin-bottom: 20px;
+   background-color: rgb(247, 211, 194);
+
+}
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    background-color: bisque;
+}
+.logo{
+    width:10%;
+    margin-left: 15px;
+   /* padding-bottom: 100px; */
+   float:left;
+}
+.footer{
+    
+    width:100%;
+    height: 50px;
+    background-color: rgb(90, 155, 117);
+    /* margin-top: 50px; */
+    text-align: center;
+    word-spacing: 30px;
+    color:aliceblue;
+    
+
+}
+
+
+.left_box{
+   
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    height: 700px;
+    background-color: cream;
+    /* margin-left: -144px; */
+}
+.logo_image_wildfolk{
+    margin-top: 140px;
+    width:500px;
+    height:170px;
+
+}
+.image_lady{
+    display: inline-block;
+    width:600px;
+    height:700px;
+    margin-left: 50%;
+    margin-top: -700px;
+}
+.right_box{
+    display: inline-block;
+    width:400px;
+    
+    height: 650px;
+    background-color: beige;
+}
+.text{
+    color:rgb(40, 63, 105);
+}
+
+.sign_up_box{
+    width:60%;
+    height: 500px;
+    
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/080/178/large_2x/sage-green-background-gradient-illustration-free-photo.jpg);
+    text-align: center;
+    align-items: center;
+}
+
+.info_page{
+    color:aliceblue;
+    padding-top: 100px;
+    /* margin-top: 100px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+.footer_signup{
+    margin-top: 60px;
+    width:100%;
+    height: 50px;
+    background-color: rgb(90, 155, 117);
+    /* margin-top: 50px; */
+    text-align: center;
+    word-spacing: 30px;
+    color:aliceblue;
+}
+.footer_login{
+    
+    margin-top: 150px;
+    width:100%;
+    height: 50px;
+    background-color: rgb(90, 155, 117);
+    /* margin-top: 50px; */
+    text-align: center;
+    word-spacing: 30px;
+    color:aliceblue;
+}
+.log_in{
+    width: 350px;
+    height: 400px;
+    background-image: url();
+    background-color: rgb(90, 155, 117);
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+.log_intext{
+    padding-top: 90px;
+}
+.log_in_button2{
+    margin-right: 20px;
+    height:40px;
+    width: 100px;
+    margin-top: 90px;
+    background-color: rgb(247, 211, 194);
+
+}
+.about_box{
+    display: inline-block;
+    width:50%;
+    
+    margin-top: -200px;
+   
+    text-align: center;
+    
+    padding-top: 400px;
+    
+    
+    
+}
+.text_about{
+    display: inline-block;
+  
+  margin-bottom: 350px;
+  font-size: 70px;
+  color:rgb(40, 63, 105);
+  
+}
+
+.about_img{
+    display: inline-block;
+    width:600px;
+    height:780px;
+    margin-left: 10px;
+
+}
+
+.playlist_box1{
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(90, 149, 114);
+    
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.search_playlist{
+    width: 250px;
+    height: 25px;
+    background-color: rgb(157, 197, 173);
+    color:aliceblue;
+    margin-top: 70px;
+    margin-left: 540px;
+    font-size: 20px;
+    border-radius: 10px;
+   
+}
+.playlist_background{
+    background-color: rgb(46, 46, 56);
+}
+.search_button_1{
+    height:40px;
+    width: 100px;
+    margin-left: 20px;
+   
+    
+    background-color: rgb(227, 209, 181);
+
+}
+.big_box{
+    display: inline-block;
+    width:1000px;
+    height:300px;
+    background-color: rgb(227, 209, 181);
+    margin-left: 200px;
+    margin-top: -180px;
+}
+.text{
+    margin-left: 26px;
+}
+.inner_box1{
+    display: inline-block;
+    width:200px;
+    height:250px;
+    background-color: rgb(51, 63, 93);
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.img_box1{
+    width:200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.inner_box2{
+    display: inline-block;
+    width:200px;
+    height:250px;
+    background-color: rgb(51, 63, 93);
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+
+}
+.img_box2{
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+}
+.inner_box3{
+    display: inline-block;
+    width:200px;
+    height:250px;
+    background-color: rgb(51, 63, 93);
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 10px;
+
+}
+.img_box3{
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+}
+.big_box2{
+    display: inline-block;
+    width:1000px;
+    height:fit-content;
+    background-color: rgb(227, 209, 181);
+    margin-left: 200px;
+    padding-bottom: 40px;
+    
+
+}
+.inner_box4{
+    display: inline-block;
+    width:200px;
+    height:250px;
+    background-color: rgb(51, 63, 93);
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 10px;
+
+}
+.img_box4{
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+}
+.inner_box5{
+    display: inline-block;
+    width:200px;
+    height:250px;
+    background-color: rgb(51, 63, 93);
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.img_box5{
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+}
+.inner_box6{
+    display: inline-block;
+    width:200px;
+    height:250px;
+    background-color: rgb(51, 63, 93);
+    margin-top: 10px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+.img_box6{
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+
+}
+.p_list{
+    color:beige;
+    text-align: center;
+}
+.artist_page{
+    background-color: rgb(46, 46, 56);
+}
+.Artist_container{
+    width:60%;
+    height: fit-content;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/080/178/large_2x/sage-green-background-gradient-illustration-free-photo.jpg);
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    color:aliceblue;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.artist_info_pic{
+    width:300px;
+    height:300px;
+    
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+.image_artist{
+    width:300px;
+    height:300px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.artist_songs{
+    margin-left: 35px;
+    text-align: left;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.audio_box1{
+    width: 60%;
+    height:20px;
+    
+}
+.buttons{
+    margin-left: 20px;
+    background-color: rgb(247, 211, 194);
+    
+}
+.artist_page_buttons{
+    background-color: rgb(247, 211, 194);
+    width:fit-content;
+    height: 30px;
+    padding:10px;
+    box-shadow: inset;
+
+}
+.play_button{
+    
+    
+    width:50px;
+    height:50px;
+    background-color: rgb(249, 215, 206);
+    border-radius: 20%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+

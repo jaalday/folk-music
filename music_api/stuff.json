@@ -1,0 +1,29 @@
+[{
+    "Artists":[
+        {
+            "name": "The Paper Kites",
+            "id": 3456024,
+        
+            "releases_url": "https://api.discogs.com/artists/3456024/releases",
+            "albums": "Woodlands, Electric Indago, States",
+        },
+        {
+            "name": "Gregory and the Hawk",
+            "id": 1181097,
+            "releases_url": "https://api.discogs.com/artists/1181097/releases",
+            "albums": "Boats and Birds, Moenie and Kitchi, Leche",
+        },
+        {
+            "name": "The Steeldrivers",
+            "id": 1105938,
+            "releases_url": "https://api.discogs.com/artists/1105938/releases",
+            "albums": "Reckless, tougher than nails, bad for you",
+        },
+            
+]
+}]
+
+
+
+
+

@@ -1,0 +1,36 @@
+CREATE TABLE names (
+	first TEXT PRIMARY KEY,
+	last TEXT NOT NULL
+	);
+	
+CREATE TABLE usernames(
+	id TEXT PRIMARY KEY,
+    name TEXT NOT NULL
+	
+	);
+	
+CREATE TABLE passwords(
+	passwords INTEGER PRIMARY KEY
+   
+   );
+
+CREATE TABLE playlists(
+	id TEXT PRIMARY KEY,
+	artists TEXT NOT NULL,
+	songs TEXT NOT NULL,
+	albums TEXT NOT NULL,
+	genre TEXT NOT NULL
+
+);
+CREATE TABLE IF NOT EXISTS users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS tokens (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+    token TEXT NOT NULL
+);
