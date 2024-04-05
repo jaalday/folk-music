@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.getElementById("songs").addEventListener("click", function (e) {
   get(
-    `https://api.discogs.com/artists/${artistId}?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`
+    `https://api.discogs.com/artists/${artistId}?token=`
   ).then(function (data) {
     // Destructure our data
     const { name, releases_url } = data;
@@ -20,7 +20,7 @@ document.getElementById("songs").addEventListener("click", function (e) {
 
 document.getElementById("info").addEventListener("click", function (e) {
   get(
-    `https://api.discogs.com/artists/${artistId}?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`
+    `https://api.discogs.com/artists/${artistId}?token=`
   ).then(function (data) {
     const { realname, profile } = data;
     console.log(realname, profile);
@@ -59,7 +59,7 @@ document.getElementById("info").addEventListener("click", function (e) {
   }
 
   function getReleases(url) {
-    get(url + "?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn").then(function (data) {
+    get(url + "?token=").then(function (data) {
       // Destructure the releases
       const { releases } = data;
       console.log({ releases });
