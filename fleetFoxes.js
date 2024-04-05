@@ -11,7 +11,7 @@ let songsPlaylist = [];
 // paper kites button songs________________________________________________///////
 document.getElementById("songs").addEventListener("click", function (e) {
 get(
-    `https://api.discogs.com/artists/${artistId}?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`
+    `https://api.discogs.com/artists/${artistId}?token=`
 ).then(function (data) {
     
     const { name, releases_url } = data;
@@ -25,7 +25,7 @@ get(
 
 document.getElementById("info").addEventListener("click", function (e) {
 get(
-`https://api.discogs.com/artists/${artistId}?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`
+`https://api.discogs.com/artists/${artistId}?token=`
 ).then(function (data) {
 const {members, profile, name } = data;
 console.log({ data });
@@ -64,7 +64,7 @@ getLyrics(lyrics);
   //showing releases____-----------------------////////////////
 
   function getReleases(url) {
-    get(url + "?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn").then(function (
+    get(url + "?token=").then(function (
       data
     ) {
       const { releases } = data;
