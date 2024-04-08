@@ -11,7 +11,7 @@ let songsPlaylist = [];
 // steeldrivers button songs________________________________________________///////
 document.getElementById("songs").addEventListener("click", function (e) {
     get(
-      `https://api.discogs.com/artists/${artistId}?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`
+      `https://api.discogs.com/artists/${artistId}?token=`
     ).then(function (data) {
       
       const { name, releases_url } = data;
@@ -25,7 +25,7 @@ document.getElementById("songs").addEventListener("click", function (e) {
 
 document.getElementById("info").addEventListener("click", function (e) {
 get(
-    `https://api.discogs.com/artists/${artistId}?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`
+    `https://api.discogs.com/artists/${artistId}?token=`
 ).then(function (data) {
     const { profile, name } = data;
     console.log({ data });
@@ -35,19 +35,8 @@ get(
 });
 });
 
-/// paper kites releases button still not fucking working I give up_____________
-// let artistId2 = "3456024";
 
 
-// document.getElementById("songs").addEventListener("click", function (e) {
-// get(
-//   `https://api.discogs.com/artists/${artistId2}?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`
-// ).then(function (data) {
-//   // Destructure our data
-//   const { name, releases_url } = data;
-
-//   getReleases(releases_url);
-// });
   
 
 
@@ -74,7 +63,7 @@ get(
   //showing releases____-----------------------////////////////
 
   function getReleases(url) {
-    get(url + "?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn").then(function (
+    get(url + "?token=").then(function (
       data
     ) {
       const { releases } = data;
@@ -126,7 +115,7 @@ get(
   }
 //get info//////////////////_______________________________________
   function getInfo(url) {
-    get(url + "?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn").then(function (
+    get(url + "?token=").then(function (
       data
     ) {
       const { profile, members, urls } = data;
