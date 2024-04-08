@@ -64,7 +64,7 @@ getLyrics(lyrics);
   //showing releases____-----------------------////////////////
 
   function getReleases(url) {
-    get(url + "?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn").then(function (
+    get(url + "?token=").then(function (
       data) {
       const { releases } = data;
       console.log({ releases });
