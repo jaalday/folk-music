@@ -7,7 +7,7 @@
 // const userInput = artistId
 let artistId = "1430463"
 const getJSON = async () => {
-  const data = await fetch(`https://api.discogs.com/artists/${artistId}?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`).then((response) => response.json());
+  const data = await fetch(`https://api.discogs.com/artists/${artistId}?token=`).then((response) => response.json());
   return data;
 };
 
@@ -33,7 +33,7 @@ console.log('result', resultArray);
 })
   
   function getValues(userInput) {
-    get(`https://api.discogs.com/artists/${artistId}?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`).then (function(data){
+    get(`https://api.discogs.com/artists/${artistId}?token=`).then (function(data){
 
     const Info = data.filter((artist) => {
       if (artist.id == userInput){
@@ -48,10 +48,7 @@ console.log('result', resultArray);
     });
     return Info;
   
-    // const{releases} = data;
-    // console.log({releases});
-    // const list = document.createElement("ul");
-    // root.appendChild(list);
+  
     
   
   
@@ -74,36 +71,7 @@ console.log('result', resultArray);
 
 
 
-//     // greeting.textContent = "";
-//     // root.append(greeting);
 
-//     const todoForm = document.querySelector('#todo');
-
-//     todoForm.addEventListener('submit', function (event) {
-//         event.preventDefault();
-//         const taskInput = this.querySelector('input[name="taskEntry"]');
-//         generateList(taskInput);
-//     });
-//     function generateList(taskInput) {
-//         //getlist
-        
-//         const taskList = document.querySelector('#taskList');
-//         const taskElement = document.createElement('li');
-//         taskElement.textContent = taskInput.value;
-//         taskList.appendChild(taskElement);
-//         clearInput(taskInput);
-
-        
-        
-//     }
-//      function clearInput(input) {
-//         input.value = '';
-//       return;
-//     };
-        
-
-
-//   });
 
 
   
@@ -112,44 +80,6 @@ console.log('result', resultArray);
  
         
  
-  
-
-// console.log('pooooooop');
-
-// function get(url) {
-//     return fetch(
-//       `https://api.discogs.com/artists/?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn`,
-//       {
-//         method: "GET",
-//         headers: {
-//           "User-Agent": "jac/3",
-//         },
-//       }
-//     )
-//       .then(function (response) {
-//         return response.json();
-//       })
-//       .then(function (data) {
-//         return data;
-//       });
-//   }
-
-//   function getInfo(url) {
-//     get(url + "?token=uFuTrfqnpehmXnlCPmCfpgtnvApsKRGDVZgURLxn").then(function (
-//       data
-//     ) {
-//       const { profile, members, } = data;
-      
-//       console.log({ data });
-//       const makeNewList = document.createElement("ul");
-//       root.appendChild(makeNewList);
-
-//       const listItem = document.createElement("li");
-//       listItem.textContent = `${profile} - ${members}`;
-//       const list = document.createElement("ul");
-//       list.appendChild(listItem);
-//     });
-//   }
 
 
 
